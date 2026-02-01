@@ -1,28 +1,28 @@
 class Mdvault < Formula
   desc "CLI tool for managing markdown vaults with structured notes and validation"
   homepage "https://github.com/agustinvalencia/mdvault"
-  version "0.1.2"
+  version "0.2.5"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/agustinvalencia/mdvault/releases/download/v0.1.2/mdv-0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "6cbf72956b77e70c7922831d4aa5c59cc19adf29a5c366fe39afe94b656df340"
+      url "https://github.com/agustinvalencia/mdvault/releases/download/v0.2.5/mdv-0.2.5-x86_64-apple-darwin.tar.gz"
+      sha256 "623d85369627685c7fb53999e117398575a10e715a412dfe0f09e1d91a2d9a28"
     end
     on_arm do
-      url "https://github.com/agustinvalencia/mdvault/releases/download/v0.1.2/mdv-0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "927a94b8c9a241393b575e7e0cb371b529bc5bd6a1fb05daab59d621796e2536"
+      url "https://github.com/agustinvalencia/mdvault/releases/download/v0.2.5/mdv-0.2.5-aarch64-apple-darwin.tar.gz"
+      sha256 "0361c00e2406b7d3bc0cb399cacb3b60e54c26c5d20513157ae69a37d6feb6d0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agustinvalencia/mdvault/releases/download/v0.1.2/mdv-0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "43af67b9c19014c07939a7a0206781c989ef6c3c3825d36f899c0a913882d0a4"
+      url "https://github.com/agustinvalencia/mdvault/releases/download/v0.2.5/mdv-0.2.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "104c31f09f897dc1ac2eb7a9fef9cbf0b811c93458d52bfc5791b82824fcab56"
     end
     on_arm do
-      url "https://github.com/agustinvalencia/mdvault/releases/download/v0.1.2/mdv-0.1.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c6d02793d065eebbc05abce14d2bdd3b1aa7098a59e632d1459c3ab24b1633af"
+      url "https://github.com/agustinvalencia/mdvault/releases/download/v0.2.5/mdv-0.2.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1313935010d74d7adb2d3acb1624c9e1ef0fd28a976ffc6ea85adafcd01a9f54"
     end
   end
 
