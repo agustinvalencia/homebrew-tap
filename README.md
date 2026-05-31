@@ -10,15 +10,17 @@ brew tap agustinvalencia/tap
 
 ## Available Formulae
 
-### mdvault
+### cuaderno
 
-CLI tool for managing markdown vaults with structured notes, validation, and search.
+Markdown vault manager implementing the Research Logbook Method. Ships two binaries: `cdno` (the CLI for the daily loop) and `cdno-mcp` (the MCP server exposing the vault to Claude / Kiro / Gemini CLI).
 
 ```bash
-brew install agustinvalencia/tap/mdvault
+brew install agustinvalencia/tap/cuaderno
 ```
 
-Or directly:
+### mdvault
+
+CLI tool for managing markdown vaults with structured notes, validation, and search. (Predecessor to cuaderno; both are maintained.)
 
 ```bash
 brew install agustinvalencia/tap/mdvault
@@ -26,4 +28,5 @@ brew install agustinvalencia/tap/mdvault
 
 ## More Information
 
+- [cuaderno repository](https://github.com/agustinvalencia/cuaderno)
 - [mdvault repository](https://github.com/agustinvalencia/mdvault)
