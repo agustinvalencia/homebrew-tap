@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.9"
+  version "0.1.10"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.9/cuaderno-0.1.9-aarch64-apple-darwin.tar.gz"
-      sha256 "6907e37422386d4181d26cdc1a7b1b432c1622003000766a2d96845a334e7d25"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.10/cuaderno-0.1.10-aarch64-apple-darwin.tar.gz"
+      sha256 "d068c09bcc8396ebd59e00139baf0b5dd1b1818b4b050865b159a77f8f310bb2"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.9/cuaderno-0.1.9-x86_64-apple-darwin.tar.gz"
-      sha256 "725162f18bf2e13fd21760c2e4f639017fcf58996d38dbe857295ad290c7259b"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.10/cuaderno-0.1.10-x86_64-apple-darwin.tar.gz"
+      sha256 "853b21f3f00bd2ec4307797f8a7f4b064a778af40d2384db91814a6e476bb64a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.9/cuaderno-0.1.9-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cabb6e866b46f8e9f11b59006f9e2f3a4866f6a8414c58c8f3c3fba1567d9f22"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.10/cuaderno-0.1.10-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a3fe3a43f31549583f5f5648a4e67a0a6417c499f1c775c0b869ddd510eb7692"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.9/cuaderno-0.1.9-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1338eb5ff38df49ec5b4ef2215342959355b15c6dd79db6eed94e915b9dcd36d"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.10/cuaderno-0.1.10-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6166384180a2d60d8480b7365760ec5a586d0c19a2e1c7d13d291d69ec5524ac"
     end
   end
 
