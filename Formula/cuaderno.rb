@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.10"
+  version "0.1.11"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.10/cuaderno-0.1.10-aarch64-apple-darwin.tar.gz"
-      sha256 "d068c09bcc8396ebd59e00139baf0b5dd1b1818b4b050865b159a77f8f310bb2"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.11/cuaderno-0.1.11-aarch64-apple-darwin.tar.gz"
+      sha256 "ddb90f0d7c4a749aa4b1bef222a9f50af8ec8e906993c0a4e9224148bdebfc18"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.10/cuaderno-0.1.10-x86_64-apple-darwin.tar.gz"
-      sha256 "853b21f3f00bd2ec4307797f8a7f4b064a778af40d2384db91814a6e476bb64a"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.11/cuaderno-0.1.11-x86_64-apple-darwin.tar.gz"
+      sha256 "561877b82b43a565930418c774cc089770dedeced627af9e3dc8dfa51c35176b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.10/cuaderno-0.1.10-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a3fe3a43f31549583f5f5648a4e67a0a6417c499f1c775c0b869ddd510eb7692"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.11/cuaderno-0.1.11-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e83f2aebfa61272b2edcd3b651aa3b58a2400f4806d91a6e4c693f9b9b49c264"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.10/cuaderno-0.1.10-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6166384180a2d60d8480b7365760ec5a586d0c19a2e1c7d13d291d69ec5524ac"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.11/cuaderno-0.1.11-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4f9e528c9d04b6cf7f96cb905b80e8b46806fea2fc0719a255a64a9401f44daa"
     end
   end
 
