@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.11"
+  version "0.1.12"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.11/cuaderno-0.1.11-aarch64-apple-darwin.tar.gz"
-      sha256 "ddb90f0d7c4a749aa4b1bef222a9f50af8ec8e906993c0a4e9224148bdebfc18"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.12/cuaderno-0.1.12-aarch64-apple-darwin.tar.gz"
+      sha256 "f8605beff68fc382975a91c7306c8fa92122fa1e56b518fe35394aa56b7e93e2"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.11/cuaderno-0.1.11-x86_64-apple-darwin.tar.gz"
-      sha256 "561877b82b43a565930418c774cc089770dedeced627af9e3dc8dfa51c35176b"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.12/cuaderno-0.1.12-x86_64-apple-darwin.tar.gz"
+      sha256 "c1768ce7c9803c5b17dc4fc4fa6ebe4cb5dac1054a56f9066a9bde00dc2d0080"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.11/cuaderno-0.1.11-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e83f2aebfa61272b2edcd3b651aa3b58a2400f4806d91a6e4c693f9b9b49c264"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.12/cuaderno-0.1.12-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e218cff7d6a23a5026bc2d43e70bf4822d05f6fcf910ca036d61b97a5937e6c8"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.11/cuaderno-0.1.11-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4f9e528c9d04b6cf7f96cb905b80e8b46806fea2fc0719a255a64a9401f44daa"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.12/cuaderno-0.1.12-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "34f481ff728852bec38fdaf5aeae49b3c71689549f08eb3c124f9a510efc9683"
     end
   end
 
