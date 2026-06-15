@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.12"
+  version "0.1.13"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.12/cuaderno-0.1.12-aarch64-apple-darwin.tar.gz"
-      sha256 "f8605beff68fc382975a91c7306c8fa92122fa1e56b518fe35394aa56b7e93e2"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.13/cuaderno-0.1.13-aarch64-apple-darwin.tar.gz"
+      sha256 "49dbee0f4ed2163d696bb7c10bb1763bf00bd3f978135f1562ef14e56781915e"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.12/cuaderno-0.1.12-x86_64-apple-darwin.tar.gz"
-      sha256 "c1768ce7c9803c5b17dc4fc4fa6ebe4cb5dac1054a56f9066a9bde00dc2d0080"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.13/cuaderno-0.1.13-x86_64-apple-darwin.tar.gz"
+      sha256 "69b31a1896d308be1eb9cade0e37f0d263d6359ecaa7d02bc7167b0c4ff551ce"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.12/cuaderno-0.1.12-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e218cff7d6a23a5026bc2d43e70bf4822d05f6fcf910ca036d61b97a5937e6c8"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.13/cuaderno-0.1.13-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1694075ae808e15844b6dbf1dbd8e6cc40e42c402825a5e4c26d3c80070911e2"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.12/cuaderno-0.1.12-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "34f481ff728852bec38fdaf5aeae49b3c71689549f08eb3c124f9a510efc9683"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.13/cuaderno-0.1.13-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "13a31449cc3d02f6797712314dd87040eb42534979f8d1a0553a77935a437a55"
     end
   end
 
