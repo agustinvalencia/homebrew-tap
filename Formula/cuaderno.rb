@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.13"
+  version "0.1.14"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.13/cuaderno-0.1.13-aarch64-apple-darwin.tar.gz"
-      sha256 "49dbee0f4ed2163d696bb7c10bb1763bf00bd3f978135f1562ef14e56781915e"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.14/cuaderno-0.1.14-aarch64-apple-darwin.tar.gz"
+      sha256 "38e2af72fe04f5269b5ea638561868fe894a5ccea10798db580b94e02e1689cc"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.13/cuaderno-0.1.13-x86_64-apple-darwin.tar.gz"
-      sha256 "69b31a1896d308be1eb9cade0e37f0d263d6359ecaa7d02bc7167b0c4ff551ce"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.14/cuaderno-0.1.14-x86_64-apple-darwin.tar.gz"
+      sha256 "25b78087124efd74d9ec58b0d436eac6178ffa666ec061ec8c68a381e2303919"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.13/cuaderno-0.1.13-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1694075ae808e15844b6dbf1dbd8e6cc40e42c402825a5e4c26d3c80070911e2"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.14/cuaderno-0.1.14-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4aba563927c56da41235ba6a5aa9f3184eee2cdf154c97d78fba6cb9647e4e0c"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.13/cuaderno-0.1.13-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "13a31449cc3d02f6797712314dd87040eb42534979f8d1a0553a77935a437a55"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.14/cuaderno-0.1.14-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e274ab2907265da7fff630663baba37d568692581821fe780565d38ed575057a"
     end
   end
 
