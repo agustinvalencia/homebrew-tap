@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.14"
+  version "0.1.15"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.14/cuaderno-0.1.14-aarch64-apple-darwin.tar.gz"
-      sha256 "38e2af72fe04f5269b5ea638561868fe894a5ccea10798db580b94e02e1689cc"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.15/cuaderno-0.1.15-aarch64-apple-darwin.tar.gz"
+      sha256 "b29fa971b1b7ffa760ea00fca947e0cc938263c988919877b3b4d7321b6b51e0"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.14/cuaderno-0.1.14-x86_64-apple-darwin.tar.gz"
-      sha256 "25b78087124efd74d9ec58b0d436eac6178ffa666ec061ec8c68a381e2303919"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.15/cuaderno-0.1.15-x86_64-apple-darwin.tar.gz"
+      sha256 "7473f3e6963b096c0881ff880639c8378f99189ebfebfd49deb505feef6fbe4e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.14/cuaderno-0.1.14-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4aba563927c56da41235ba6a5aa9f3184eee2cdf154c97d78fba6cb9647e4e0c"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.15/cuaderno-0.1.15-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bde07d8581396b6b46cf7358f31810d8ecfe1465c534f0212419e67dac7e7d46"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.14/cuaderno-0.1.14-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e274ab2907265da7fff630663baba37d568692581821fe780565d38ed575057a"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.15/cuaderno-0.1.15-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ec2c8534e836a522bddb4b989f710ea8c0f3a005032d373ef66aaa71b5f5746c"
     end
   end
 
