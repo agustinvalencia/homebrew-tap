@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.16"
+  version "0.1.17"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.16/cuaderno-0.1.16-aarch64-apple-darwin.tar.gz"
-      sha256 "f3fafafb455f4163f1734be73bd106cf4697621799cc96064ee2e1d362dc7255"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.17/cuaderno-0.1.17-aarch64-apple-darwin.tar.gz"
+      sha256 "52c0c78d343e52e0a1729c2edb9e19f0da48a2a9a333e1135d36a54bcdbb578f"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.16/cuaderno-0.1.16-x86_64-apple-darwin.tar.gz"
-      sha256 "4a6e36d5d2add7c34c1c46209d8ba64d064a9d695eb53a5fc7c96483fb6b43c5"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.17/cuaderno-0.1.17-x86_64-apple-darwin.tar.gz"
+      sha256 "2135d3c312eb60a72cdf27b1601afc4a6154909667bd4d604b11b2394904ec13"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.16/cuaderno-0.1.16-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "816edaff7126781907cc641ddf12a1fa6eba4e6f7237b411a63ed25f219a2387"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.17/cuaderno-0.1.17-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4755a4569da05b791ce7ba02d79743ab3d2541663e819258cba5fb96f962d93a"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.16/cuaderno-0.1.16-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "368c708beae22846dc062c98dc0fe29e1b5a704aab64e682acebd05c3b312be7"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.17/cuaderno-0.1.17-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d5a1940e0f2db79514a8b51ff2c2f048f48bb4879ad9f30ee8f04dd4d3f1d32c"
     end
   end
 
