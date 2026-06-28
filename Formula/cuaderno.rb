@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.15"
+  version "0.1.16"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.15/cuaderno-0.1.15-aarch64-apple-darwin.tar.gz"
-      sha256 "b29fa971b1b7ffa760ea00fca947e0cc938263c988919877b3b4d7321b6b51e0"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.16/cuaderno-0.1.16-aarch64-apple-darwin.tar.gz"
+      sha256 "f3fafafb455f4163f1734be73bd106cf4697621799cc96064ee2e1d362dc7255"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.15/cuaderno-0.1.15-x86_64-apple-darwin.tar.gz"
-      sha256 "7473f3e6963b096c0881ff880639c8378f99189ebfebfd49deb505feef6fbe4e"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.16/cuaderno-0.1.16-x86_64-apple-darwin.tar.gz"
+      sha256 "4a6e36d5d2add7c34c1c46209d8ba64d064a9d695eb53a5fc7c96483fb6b43c5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.15/cuaderno-0.1.15-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bde07d8581396b6b46cf7358f31810d8ecfe1465c534f0212419e67dac7e7d46"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.16/cuaderno-0.1.16-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "816edaff7126781907cc641ddf12a1fa6eba4e6f7237b411a63ed25f219a2387"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.15/cuaderno-0.1.15-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ec2c8534e836a522bddb4b989f710ea8c0f3a005032d373ef66aaa71b5f5746c"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.16/cuaderno-0.1.16-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "368c708beae22846dc062c98dc0fe29e1b5a704aab64e682acebd05c3b312be7"
     end
   end
 
