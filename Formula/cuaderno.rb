@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.18"
+  version "0.1.19"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.18/cuaderno-0.1.18-aarch64-apple-darwin.tar.gz"
-      sha256 "5787e3c54de70107421fd8bc0f1555ab2c2e81c13dea94ec135e61d9da215145"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.19/cuaderno-0.1.19-aarch64-apple-darwin.tar.gz"
+      sha256 "393170c4979902c3a5de52b926d02d2dd6fedf75abf1414eb42b0d2b23c072c1"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.18/cuaderno-0.1.18-x86_64-apple-darwin.tar.gz"
-      sha256 "74575220a1776ffacf15bee69a8f876a5a43a6cf75acf04457af0ccfd4f2795e"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.19/cuaderno-0.1.19-x86_64-apple-darwin.tar.gz"
+      sha256 "1c2e443e68725a35f4c6c7bb8fe5651f6a5034c92eb003ff80c6749c7afa0abc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.18/cuaderno-0.1.18-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5825049fb3af609e725454fbc7df2f5c801893abf02f685d148df7c15c5dfaf1"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.19/cuaderno-0.1.19-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d278dbf74fb53ae5ca55b3059da313b1da005007bc1356a06af420c05e2f32b0"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.18/cuaderno-0.1.18-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b0b365b13be49b7e22aa63afb25ef558338e66b0934e2483f1fcd7153a056566"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.19/cuaderno-0.1.19-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fc20dbbf3653c2c7c54320cb8ababaeb0a5049c56e90297dc9f3e69a0791a566"
     end
   end
 
