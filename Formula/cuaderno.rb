@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.22"
+  version "0.1.23"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.22/cuaderno-0.1.22-aarch64-apple-darwin.tar.gz"
-      sha256 "949d9fe6c39ecea425400cf89b5d11c1307dca4b7be64c9b0b4f6289aeaf80b7"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.23/cuaderno-0.1.23-aarch64-apple-darwin.tar.gz"
+      sha256 "9f23ed7ef4fa0991cc21a3963a8e244007dcb30c636d2b5386a1c3e271e82ff5"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.22/cuaderno-0.1.22-x86_64-apple-darwin.tar.gz"
-      sha256 "9edf867c6d4f808adf08ca53719be1398904d01235ff4e0e79fb118de0002a60"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.23/cuaderno-0.1.23-x86_64-apple-darwin.tar.gz"
+      sha256 "c789091b09aeacbca7f82fffb8b48b7a1fee0a1fde598a34ee3888f95cd37039"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.22/cuaderno-0.1.22-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "41b2cd034f690e4e16771df5a8be2c7f560b9400bf3d8f626e541516a3b18198"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.23/cuaderno-0.1.23-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "52875c139e5ddf4a8147d6f7b006557055bf7c97b7ba16e609a0c1d053fd2e23"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.22/cuaderno-0.1.22-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e553e98c51e11214e6adcf377f10017dfaa703fb5e8a15ac85256d3ce203ef34"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.23/cuaderno-0.1.23-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f9745d2abab10cf4aef6eaba95759dcf5febd54f3944c5da6933fd6a9025f057"
     end
   end
 
