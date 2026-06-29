@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.21"
+  version "0.1.22"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.21/cuaderno-0.1.21-aarch64-apple-darwin.tar.gz"
-      sha256 "6c610aa7e11038261e3b9e52ef9d1106dc0921e41e6fe237c7614975785f8e61"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.22/cuaderno-0.1.22-aarch64-apple-darwin.tar.gz"
+      sha256 "949d9fe6c39ecea425400cf89b5d11c1307dca4b7be64c9b0b4f6289aeaf80b7"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.21/cuaderno-0.1.21-x86_64-apple-darwin.tar.gz"
-      sha256 "bc1b7c61ab7450829743e9b1aa464133d18ca96b8b77aeb0f35616294b4bc3e3"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.22/cuaderno-0.1.22-x86_64-apple-darwin.tar.gz"
+      sha256 "9edf867c6d4f808adf08ca53719be1398904d01235ff4e0e79fb118de0002a60"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.21/cuaderno-0.1.21-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a4cffb122194a46b7253f46f66740c82c4c6b0b720a0505c45d0d8b5bae694f9"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.22/cuaderno-0.1.22-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "41b2cd034f690e4e16771df5a8be2c7f560b9400bf3d8f626e541516a3b18198"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.21/cuaderno-0.1.21-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6282b99fb9e9c012993e65c94f7df797c77bf001d366a798be7a02ded3eb58cb"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.22/cuaderno-0.1.22-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e553e98c51e11214e6adcf377f10017dfaa703fb5e8a15ac85256d3ce203ef34"
     end
   end
 
