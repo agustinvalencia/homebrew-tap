@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.20"
+  version "0.1.21"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.20/cuaderno-0.1.20-aarch64-apple-darwin.tar.gz"
-      sha256 "1072276d3f53cc3c0b9cfc27ae4cfd6190c4e9b5ad38340d24ac52f4702f7058"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.21/cuaderno-0.1.21-aarch64-apple-darwin.tar.gz"
+      sha256 "6c610aa7e11038261e3b9e52ef9d1106dc0921e41e6fe237c7614975785f8e61"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.20/cuaderno-0.1.20-x86_64-apple-darwin.tar.gz"
-      sha256 "024d9de0f757ec6f77be579f83cc33cec33bcea90d06351b6f9d918a017ca453"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.21/cuaderno-0.1.21-x86_64-apple-darwin.tar.gz"
+      sha256 "bc1b7c61ab7450829743e9b1aa464133d18ca96b8b77aeb0f35616294b4bc3e3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.20/cuaderno-0.1.20-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3d0366adc77a322b7e670f469dc4b4fad4199697b91622b07497e5a857c682b2"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.21/cuaderno-0.1.21-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a4cffb122194a46b7253f46f66740c82c4c6b0b720a0505c45d0d8b5bae694f9"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.20/cuaderno-0.1.20-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c92789a39a5f27a24f612e10ca51b894c64b443ed34872aa6b53ef68c0ee5fad"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.21/cuaderno-0.1.21-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6282b99fb9e9c012993e65c94f7df797c77bf001d366a798be7a02ded3eb58cb"
     end
   end
 
