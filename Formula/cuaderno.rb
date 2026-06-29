@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.23"
+  version "0.1.24"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.23/cuaderno-0.1.23-aarch64-apple-darwin.tar.gz"
-      sha256 "9f23ed7ef4fa0991cc21a3963a8e244007dcb30c636d2b5386a1c3e271e82ff5"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.24/cuaderno-0.1.24-aarch64-apple-darwin.tar.gz"
+      sha256 "188578d7f711fa70bab3963a3e29d98ad8895ab1ac43924b671601133ac5dfed"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.23/cuaderno-0.1.23-x86_64-apple-darwin.tar.gz"
-      sha256 "c789091b09aeacbca7f82fffb8b48b7a1fee0a1fde598a34ee3888f95cd37039"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.24/cuaderno-0.1.24-x86_64-apple-darwin.tar.gz"
+      sha256 "ed40b742beb0b763c93c323bc78ea4b532dda602ac7ba87e2b24e8303f54a136"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.23/cuaderno-0.1.23-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "52875c139e5ddf4a8147d6f7b006557055bf7c97b7ba16e609a0c1d053fd2e23"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.24/cuaderno-0.1.24-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "47c3ab67c4faa6c360354313da5ee5421fae4aa7a4baf6a575122ddaaf70bb9f"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.23/cuaderno-0.1.23-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f9745d2abab10cf4aef6eaba95759dcf5febd54f3944c5da6933fd6a9025f057"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.24/cuaderno-0.1.24-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a66392e09b590eb69a73d8651ef296089411660f7741e7fd5bb6827ef18ea367"
     end
   end
 
