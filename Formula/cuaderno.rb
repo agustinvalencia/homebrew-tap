@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.19"
+  version "0.1.20"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.19/cuaderno-0.1.19-aarch64-apple-darwin.tar.gz"
-      sha256 "393170c4979902c3a5de52b926d02d2dd6fedf75abf1414eb42b0d2b23c072c1"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.20/cuaderno-0.1.20-aarch64-apple-darwin.tar.gz"
+      sha256 "1072276d3f53cc3c0b9cfc27ae4cfd6190c4e9b5ad38340d24ac52f4702f7058"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.19/cuaderno-0.1.19-x86_64-apple-darwin.tar.gz"
-      sha256 "1c2e443e68725a35f4c6c7bb8fe5651f6a5034c92eb003ff80c6749c7afa0abc"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.20/cuaderno-0.1.20-x86_64-apple-darwin.tar.gz"
+      sha256 "024d9de0f757ec6f77be579f83cc33cec33bcea90d06351b6f9d918a017ca453"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.19/cuaderno-0.1.19-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d278dbf74fb53ae5ca55b3059da313b1da005007bc1356a06af420c05e2f32b0"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.20/cuaderno-0.1.20-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3d0366adc77a322b7e670f469dc4b4fad4199697b91622b07497e5a857c682b2"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.19/cuaderno-0.1.19-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fc20dbbf3653c2c7c54320cb8ababaeb0a5049c56e90297dc9f3e69a0791a566"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.20/cuaderno-0.1.20-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c92789a39a5f27a24f612e10ca51b894c64b443ed34872aa6b53ef68c0ee5fad"
     end
   end
 
