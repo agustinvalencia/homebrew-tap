@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.1.25"
+  version "0.1.26"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.25/cuaderno-0.1.25-aarch64-apple-darwin.tar.gz"
-      sha256 "ded581994ae8d1137a632efd10e2fa2a0c017eedb0bc9134f962147e6cc73bee"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.26/cuaderno-0.1.26-aarch64-apple-darwin.tar.gz"
+      sha256 "71c0818725bee000157508b28e986a12917cce6e366746b0fbb7679123ae0bfb"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.25/cuaderno-0.1.25-x86_64-apple-darwin.tar.gz"
-      sha256 "8fae0cec579c3a7fdf7c40d8b38dcc365642e23815af7607b22701ac5ff6fcd0"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.26/cuaderno-0.1.26-x86_64-apple-darwin.tar.gz"
+      sha256 "e1a5d62f53f43f2a29878b2fcfd3345234303349742ad24764f3faed5a22f8d3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.25/cuaderno-0.1.25-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2a84d67dc5149b1310b5af3f629b15c93f8d72ecc9886f17c124e8b240eab652"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.26/cuaderno-0.1.26-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d4cca9008d1695824277739160cae3ccfafe9d30d6ec1494dd75347561a0d33d"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.25/cuaderno-0.1.25-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ba0a9e08581f7e2588389a0de721383bd4876904a3991a94500874e98370e4e5"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.1.26/cuaderno-0.1.26-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a09fb3dce79b6e71f908604d0a75e9f4cbe344e0b3a00b4b24bcabe60492ef80"
     end
   end
 
