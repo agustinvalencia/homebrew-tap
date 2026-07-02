@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.2.0"
+  version "0.2.1"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.2.0/cuaderno-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f29c588c4580b5c71ee9c58e7eb1f7015e0953c6baa136f600e21e20fce9330e"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.2.1/cuaderno-0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a4cf9308db90813f43f6ee575bc46ec7403f065f980c962a03294d08cdd46f46"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.2.0/cuaderno-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "3474345400bdd3484c71db62e3b4831b1c3203e0958abda4541cbbc7417d712c"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.2.1/cuaderno-0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "a26c7fc54fa94f1f1bfe17af57f1bcf5debda9274c147e1b02005795a12c9fd4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.2.0/cuaderno-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "616ba2e0bdf10924eda281540ad2ee6f8a10230a4b21d97ec02b89e712c23f67"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.2.1/cuaderno-0.2.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fad0c11186f2497aeba514c353c3375620eb0ff501d2b2add977ea788f52e2d7"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.2.0/cuaderno-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1156d6f9a38956bffcf3c3c028f315c8c878d074ded94d7b9d2d6a82d6c8ea1d"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.2.1/cuaderno-0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e546f773593cc04c3ff5151e7b4210f94db22e48795b4ec24a9876388d73367f"
     end
   end
 
