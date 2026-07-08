@@ -1,6 +1,6 @@
 cask "cuaderno-app" do
-  version "0.8.1"
-  sha256 "17c4788b8463e7da862ddcb5ae102c97175e449016dc950965afaa8705f6457b"
+  version "0.9.0"
+  sha256 "416871a63640a0cc8a9e3fdbe3ab4e50fa17712d3eeb55d9de8712701329be38"
 
   url "https://github.com/agustinvalencia/cuaderno/releases/download/v#{version}/cuaderno-app-#{version}-aarch64-apple-darwin.dmg"
   name "Cuaderno"
@@ -20,12 +20,9 @@ cask "cuaderno-app" do
 
       xattr -dr com.apple.quarantine /Applications/cuaderno.app
 
-    A Finder-launched app inherits no shell environment, so tell GUI
-    apps where the vault lives (once per login):
-
-      launchctl setenv CUADERNO_VAULT_PATH "$HOME/Documents/notebook"
-
-    then launch cuaderno. One-off alternative from a terminal:
+    On first launch the app asks for your vault folder with a native
+    picker and remembers the choice — no environment setup needed.
+    CUADERNO_VAULT_PATH remains an explicit override for terminals:
 
       CUADERNO_VAULT_PATH=~/Documents/notebook open -a cuaderno
   EOS
