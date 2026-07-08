@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.11.0"
+  version "0.12.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.11.0/cuaderno-0.11.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8493a49675d39e511481d3a99924c410f994c6902ab33703de16d4a05658eeb1"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.12.0/cuaderno-0.12.0-aarch64-apple-darwin.tar.gz"
+      sha256 "fdf9c800aa3dc0d59a3365a00af6f1944eacf0a0eddef34216021e8caf0e2b0d"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.11.0/cuaderno-0.11.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9f982e8846dc9b252fd571d12fb12d24a712c906b22098ffa2ad6cfe0375af8b"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.12.0/cuaderno-0.12.0-x86_64-apple-darwin.tar.gz"
+      sha256 "95d7e002aae4f7a4ee12ac0adbc37a044463c96bbde002b6a3a4e1a46094a1eb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.11.0/cuaderno-0.11.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "66d1790ae686fe088e46d3164b3777b0cda0529987bfbe421c1639805b4cbf51"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.12.0/cuaderno-0.12.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "19dca309ae18cf605e57364c36203273b03e8b75faace8f6bfee6bb861da9109"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.11.0/cuaderno-0.11.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "47da12939391b087e3a287725c2add42f151ff4a18b165d4a98f41f7d73c987c"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.12.0/cuaderno-0.12.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f8ce8297fff16551799ae9b422a8b13689f19603d625fd81c4f9688d7417b342"
     end
   end
 
