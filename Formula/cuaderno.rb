@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.12.0"
+  version "0.13.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.12.0/cuaderno-0.12.0-aarch64-apple-darwin.tar.gz"
-      sha256 "fdf9c800aa3dc0d59a3365a00af6f1944eacf0a0eddef34216021e8caf0e2b0d"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.13.0/cuaderno-0.13.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a3ccce932c63507c617a2cf52829569a7bf41636ce9a935996193bd25545cc99"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.12.0/cuaderno-0.12.0-x86_64-apple-darwin.tar.gz"
-      sha256 "95d7e002aae4f7a4ee12ac0adbc37a044463c96bbde002b6a3a4e1a46094a1eb"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.13.0/cuaderno-0.13.0-x86_64-apple-darwin.tar.gz"
+      sha256 "220c7f35c84c430b55477ba7311a218bbe9d536a79c86e03c258493593aad88c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.12.0/cuaderno-0.12.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "19dca309ae18cf605e57364c36203273b03e8b75faace8f6bfee6bb861da9109"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.13.0/cuaderno-0.13.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5cec54f7b43d74c24ff2e1ced19e1a26542de63b18a2c0fb0914086c9c18326c"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.12.0/cuaderno-0.12.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f8ce8297fff16551799ae9b422a8b13689f19603d625fd81c4f9688d7417b342"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.13.0/cuaderno-0.13.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "62628f1e4c34cef419d1ce9b3b26598d095b85f150bec7e2ca78fcdca3787f9e"
     end
   end
 
