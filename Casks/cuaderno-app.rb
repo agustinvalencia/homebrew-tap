@@ -14,10 +14,11 @@ cask "cuaderno-app" do
   app "cuaderno.app"
 
   caveats <<~EOS
-    The app is ad-hoc signed (not notarized). Install with
-    --no-quarantine to skip the Gatekeeper block:
+    The app is ad-hoc signed (not notarized), so Gatekeeper blocks the
+    first launch. Strip the quarantine attribute after installing
+    (recent Homebrew removed the --no-quarantine flag):
 
-      brew install --cask agustinvalencia/tap/cuaderno-app --no-quarantine
+      xattr -dr com.apple.quarantine /Applications/cuaderno.app
 
     A Finder-launched app inherits no shell environment, so tell GUI
     apps where the vault lives (once per login):
