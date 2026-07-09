@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.13.0"
+  version "0.14.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.13.0/cuaderno-0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a3ccce932c63507c617a2cf52829569a7bf41636ce9a935996193bd25545cc99"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.14.0/cuaderno-0.14.0-aarch64-apple-darwin.tar.gz"
+      sha256 "aad5688967a3acc96cf6f48722b3953d55aea11cdf493b3e9cf846d3090ce407"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.13.0/cuaderno-0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "220c7f35c84c430b55477ba7311a218bbe9d536a79c86e03c258493593aad88c"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.14.0/cuaderno-0.14.0-x86_64-apple-darwin.tar.gz"
+      sha256 "29906f7e2e212162813d595bf7a4a43877902a278c511c98b54aee4b21b3ee49"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.13.0/cuaderno-0.13.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5cec54f7b43d74c24ff2e1ced19e1a26542de63b18a2c0fb0914086c9c18326c"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.14.0/cuaderno-0.14.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "af7c6daf585522344f62fc4f5af5642560f8abddabb286459777d65dd245ffb1"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.13.0/cuaderno-0.13.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "62628f1e4c34cef419d1ce9b3b26598d095b85f150bec7e2ca78fcdca3787f9e"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.14.0/cuaderno-0.14.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f1b83bb14a8b5b02468bfcc78a12ac27dc85f8c28ab9ca535d4767b23e31b617"
     end
   end
 
