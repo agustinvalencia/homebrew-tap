@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.15.0"
+  version "0.16.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.15.0/cuaderno-0.15.0-aarch64-apple-darwin.tar.gz"
-      sha256 "42693001a6b47d2117741018efd63ffe91a82f0135b1d806453db8d49810e7bc"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.16.0/cuaderno-0.16.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5a6e7bb471be58dc528a46e5abe4cb7530f0334ae9433e218154c40a4b24b3ca"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.15.0/cuaderno-0.15.0-x86_64-apple-darwin.tar.gz"
-      sha256 "70a25e80108581b483fd5a2ee6745236575c4ed664a6cf8905bf981756d86836"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.16.0/cuaderno-0.16.0-x86_64-apple-darwin.tar.gz"
+      sha256 "f1e88eb11799afc22dd8976fa13a8ce73b74d5fbcf1cc9cd2d3725d213873772"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.15.0/cuaderno-0.15.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "78bc42a3a8731eafb76803193f764661d75fc0d6c2cdbe6abb142efdb2e1d943"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.16.0/cuaderno-0.16.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6e4a552b534ca9a8c8a5615f850b8361a9913f8a51dc33c4d9fbec317f1efe8c"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.15.0/cuaderno-0.15.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7ba0c5aa07e6a8bd65ea3c0c5bf8917cd8f195fe68e2d28f509496bd083b5c0b"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.16.0/cuaderno-0.16.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "559636cc8c5db136719a0cf13741a4551cfbd719dfc76cc4c72ad1ee99b61445"
     end
   end
 
