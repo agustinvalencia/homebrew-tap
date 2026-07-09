@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.17.0"
+  version "0.18.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.17.0/cuaderno-0.17.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6b6b1881b94895b4c38d6f4ac40266a8a8560fc4bb5530892b9495c2ac5286b9"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.18.0/cuaderno-0.18.0-aarch64-apple-darwin.tar.gz"
+      sha256 "307eaf576fcf695657394b8578365f0e37569dce9732502957bdc5e8d8fc4ec4"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.17.0/cuaderno-0.17.0-x86_64-apple-darwin.tar.gz"
-      sha256 "db59618c17bc8b8e7faa9062e82a13b789f2a24e2d080b915ef8d156330abc38"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.18.0/cuaderno-0.18.0-x86_64-apple-darwin.tar.gz"
+      sha256 "9b4001aac9f082753c4470262505f88c5e4ab597d60347b6a374e0c750dd3b11"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.17.0/cuaderno-0.17.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fd30ae296a4866ec89f3b5d44602816e509ac910081c01f58b111dc20df61e9b"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.18.0/cuaderno-0.18.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "12e1e8406d65a63c2013526f8c414ed405ec2ec4a9ad257763b7502e1fb952f6"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.17.0/cuaderno-0.17.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b6c4d5c1f630b5377a38492ea47f6c08fc2fef2ec17f69e136988ad33d2e0679"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.18.0/cuaderno-0.18.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "87aeabd11a671b39e862817c24cdc1e63cd929608b3aded2745fab60b1a23d45"
     end
   end
 
