@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.18.0"
+  version "0.19.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.18.0/cuaderno-0.18.0-aarch64-apple-darwin.tar.gz"
-      sha256 "307eaf576fcf695657394b8578365f0e37569dce9732502957bdc5e8d8fc4ec4"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.0/cuaderno-0.19.0-aarch64-apple-darwin.tar.gz"
+      sha256 "edb11bea63c9dde0396d780f9471308767ee73e1239a24d4a6e98716ce22ea94"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.18.0/cuaderno-0.18.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9b4001aac9f082753c4470262505f88c5e4ab597d60347b6a374e0c750dd3b11"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.0/cuaderno-0.19.0-x86_64-apple-darwin.tar.gz"
+      sha256 "09811dda9a09e45fc9bcbb97a1d6e0af9a1380300e0c9d7805cbd43901c02fb0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.18.0/cuaderno-0.18.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "12e1e8406d65a63c2013526f8c414ed405ec2ec4a9ad257763b7502e1fb952f6"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.0/cuaderno-0.19.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "82da909d25920d9f0e19d337e73d9634841f37f72cd9da83c241f929dfb4afad"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.18.0/cuaderno-0.18.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "87aeabd11a671b39e862817c24cdc1e63cd929608b3aded2745fab60b1a23d45"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.0/cuaderno-0.19.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5a6477bef745e41ad384ec6fccd15bd96590df6daa4beced0e47b627d8161ffb"
     end
   end
 

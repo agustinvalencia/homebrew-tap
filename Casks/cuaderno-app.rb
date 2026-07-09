@@ -1,6 +1,6 @@
 cask "cuaderno-app" do
-  version "0.18.0"
-  sha256 "635c48782888dec2c8be2ec2bce4e9c3aa31d43bfc5346b8b80ee7a0e14fd49f"
+  version "0.19.0"
+  sha256 "60105652887206542f562cfc4275f597dbf1a319a288049a18f236bb79b5133b"
 
   url "https://github.com/agustinvalencia/cuaderno/releases/download/v#{version}/cuaderno-app-#{version}-aarch64-apple-darwin.dmg"
   name "Cuaderno"
