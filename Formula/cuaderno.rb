@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.19.0"
+  version "0.19.1"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.0/cuaderno-0.19.0-aarch64-apple-darwin.tar.gz"
-      sha256 "edb11bea63c9dde0396d780f9471308767ee73e1239a24d4a6e98716ce22ea94"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.1/cuaderno-0.19.1-aarch64-apple-darwin.tar.gz"
+      sha256 "edf8fb6bb0d56f0ed60ed55fea3598b9b0f673731cc8539dcbaf3081e29aff6c"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.0/cuaderno-0.19.0-x86_64-apple-darwin.tar.gz"
-      sha256 "09811dda9a09e45fc9bcbb97a1d6e0af9a1380300e0c9d7805cbd43901c02fb0"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.1/cuaderno-0.19.1-x86_64-apple-darwin.tar.gz"
+      sha256 "da8d7c21999f78c45d8c80cbfe4fbd811481cb52b7f9f8ed3ae4543fc342f8e2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.0/cuaderno-0.19.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "82da909d25920d9f0e19d337e73d9634841f37f72cd9da83c241f929dfb4afad"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.1/cuaderno-0.19.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7e176a137cbd862820beba59f9bb98e82b09b2c3378c5aa88eec220fe6059bf0"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.0/cuaderno-0.19.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5a6477bef745e41ad384ec6fccd15bd96590df6daa4beced0e47b627d8161ffb"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.19.1/cuaderno-0.19.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3589b1fc05fa2398a80bd93957af521e4535e60ed5fc010503b4415aee65f690"
     end
   end
 
