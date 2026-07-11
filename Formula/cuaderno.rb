@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.20.1"
+  version "0.21.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.20.1/cuaderno-0.20.1-aarch64-apple-darwin.tar.gz"
-      sha256 "6b809fd3c1e66200d5a9a47e3d78a8b2ee1df0861376b5d11325e7d60f3d677f"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.21.0/cuaderno-0.21.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3c72e75726938344a9fbac85e48bda12bea7d4cbd22b4bf5d9c91be84a7f532d"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.20.1/cuaderno-0.20.1-x86_64-apple-darwin.tar.gz"
-      sha256 "387f5ad7a475a1fb5b27f9e19f576ba08915216dc112226441d3e0a5b86b8a70"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.21.0/cuaderno-0.21.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7e18a9f272a57b3c7897badcf61c8897f7c6b98394d10b6ad79465521375c709"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.20.1/cuaderno-0.20.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2e146741ef3da819b70fad3f324a1eec7326f2086c4d93cc106e72f20d7c43b7"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.21.0/cuaderno-0.21.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b9a2ec49f9b25c504e0016fd9c31761c5823b6e7529004c5dd736cc811ac10c2"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.20.1/cuaderno-0.20.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "47a5f83e84cb5c4d73dda1196be32610dbb879b26d2aa652874dc3f55134e210"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.21.0/cuaderno-0.21.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "87cd218f100d76e56469281fddecfcf99d1ab4fcc514206110f7e220a5dca810"
     end
   end
 
