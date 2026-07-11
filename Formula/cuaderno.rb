@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.21.0"
+  version "0.22.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.21.0/cuaderno-0.21.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3c72e75726938344a9fbac85e48bda12bea7d4cbd22b4bf5d9c91be84a7f532d"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.22.0/cuaderno-0.22.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5e91bddd2be1e24269e8fa2721f22aeeae4f42322de863d22f98498bb21f906a"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.21.0/cuaderno-0.21.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7e18a9f272a57b3c7897badcf61c8897f7c6b98394d10b6ad79465521375c709"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.22.0/cuaderno-0.22.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c72b1c670935e442c7c6fa3e9e5bf27e29ef7ec703c749bfd92b211b42896685"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.21.0/cuaderno-0.21.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b9a2ec49f9b25c504e0016fd9c31761c5823b6e7529004c5dd736cc811ac10c2"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.22.0/cuaderno-0.22.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "835d4dadfcd78acd2fc7d79e1da2555decbb97d9cc6e1ba6c6465bd57868693a"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.21.0/cuaderno-0.21.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "87cd218f100d76e56469281fddecfcf99d1ab4fcc514206110f7e220a5dca810"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.22.0/cuaderno-0.22.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f12d5898e8adf934e0cb7a257c725c838b1b70239d16b27dba4833356349f6a2"
     end
   end
 
