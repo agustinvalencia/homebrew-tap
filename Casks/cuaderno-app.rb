@@ -1,6 +1,6 @@
 cask "cuaderno-app" do
-  version "0.20.0"
-  sha256 "d7b7248473804bcb6fa448062da755a64e42380fe6b22a552f590be034078893"
+  version "0.20.1"
+  sha256 "463f0364a17d6c9ce6bec8b5fa5d149afe6e8ce3b8a3fbe5db19de6e010aa698"
 
   url "https://github.com/agustinvalencia/cuaderno/releases/download/v#{version}/cuaderno-app-#{version}-aarch64-apple-darwin.dmg"
   name "Cuaderno"
@@ -9,14 +9,23 @@ cask "cuaderno-app" do
 
   # Apple Silicon only for now: the release workflow builds the dmg on
   # the arm64 runner. An Intel dmg can join when there is a taker.
+  depends_on macos: ">= :big_sur"
   depends_on arch: :arm64
 
   app "cuaderno.app"
 
+  # The app is ad-hoc signed (not notarized), so Gatekeeper flags it as
+  # "damaged" on first launch. Strip the quarantine attribute after the
+  # app is staged (recent Homebrew removed the --no-quarantine flag).
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/cuaderno.app"]
+  end
+
   caveats <<~EOS
-    The app is ad-hoc signed (not notarized), so Gatekeeper blocks the
-    first launch. Strip the quarantine attribute after installing
-    (recent Homebrew removed the --no-quarantine flag):
+    The app is ad-hoc signed (not notarized). This cask strips the
+    quarantine attribute on install so Gatekeeper won't block the first
+    launch. If macOS still reports it as damaged, run manually:
 
       xattr -dr com.apple.quarantine /Applications/cuaderno.app
 
