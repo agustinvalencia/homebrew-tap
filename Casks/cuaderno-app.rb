@@ -9,7 +9,7 @@ cask "cuaderno-app" do
 
   # Apple Silicon only for now: the release workflow builds the dmg on
   # the arm64 runner. An Intel dmg can join when there is a taker.
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
   depends_on arch: :arm64
 
   app "cuaderno.app"
