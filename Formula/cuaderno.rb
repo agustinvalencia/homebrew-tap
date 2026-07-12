@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.24.0"
+  version "0.25.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.24.0/cuaderno-0.24.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8450c01e8e7215d09148386c07a9c9d2f6b7a1c5f5be58dc34a58659f3a6db06"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.25.0/cuaderno-0.25.0-aarch64-apple-darwin.tar.gz"
+      sha256 "18d61648d9eee350a78b762391e3b1b3fdd810e2ca95e71bd9dd2050af8dc9c5"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.24.0/cuaderno-0.24.0-x86_64-apple-darwin.tar.gz"
-      sha256 "85ae8bf86c6b7c0732e498cd40f885ce32f73c3e70f42b4130e3736eb360c105"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.25.0/cuaderno-0.25.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7cd4fa0c6fb1371c5fef0c5697cf6d7b11a0100bc22db911d305f13344b88e2e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.24.0/cuaderno-0.24.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2db07ebb076f2bcc7b603d5dff70421cfd76f5eb04255da5fb87584e15706705"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.25.0/cuaderno-0.25.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1bd532f25534252cfb921737e93b59cadbf5d2b85bb716b1f5839d35156edcb9"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.24.0/cuaderno-0.24.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "59f60aee79155e28b892230970fcd4a885d50aae11d45de702aded551d1e1c89"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.25.0/cuaderno-0.25.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "eab8f1037e97a25d5dada9f1eb5c67eb9f31e99709f916b872e15db2d391175e"
     end
   end
 
