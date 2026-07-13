@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.25.1"
+  version "0.26.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.25.1/cuaderno-0.25.1-aarch64-apple-darwin.tar.gz"
-      sha256 "5f0b9339af06bf4acbaaf65948c2098124b26db63b196d11ad09f7ff98136433"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.26.0/cuaderno-0.26.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e6998bf17becf1257f0f26a3710221b84d75714fa514c20c5db6096e3153f09b"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.25.1/cuaderno-0.25.1-x86_64-apple-darwin.tar.gz"
-      sha256 "4d99ca01d676fff78b48f472f1e262f0af13b5009b6d25b23ce8ae1830af2f67"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.26.0/cuaderno-0.26.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8baa39bea67b18673b063f6423b554d40d47569eb3a3082cd0418adf9c1991b7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.25.1/cuaderno-0.25.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8d236548150b64570038c225a3f2fa7a7db1b72030c3a537820a9d80fc398219"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.26.0/cuaderno-0.26.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c8acc1a34497b79d8f68d92c4fa17348b815b8950b0d17df8c8e228a16f4fe0a"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.25.1/cuaderno-0.25.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "915da80354f55eba50543a8444fe3f3370af5295ff6cc87d092eba19522a7e3b"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.26.0/cuaderno-0.26.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9477b26fcea95c03ea452a7e2cb645af068bfc1dc264c4f7ec9c16432de86288"
     end
   end
 
