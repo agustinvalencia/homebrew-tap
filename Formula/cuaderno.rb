@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.29.0"
+  version "0.29.1"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.0/cuaderno-0.29.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b8dfed11eab7de9704912bc1c2d4abe9b319f3c6aa12981cc196d1ef6a606b00"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.1/cuaderno-0.29.1-aarch64-apple-darwin.tar.gz"
+      sha256 "896ee3f97a7f3e1d32385e88cbfc7f7ca8614f00e3b40580ba4d1b91672d8f67"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.0/cuaderno-0.29.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7af869e3c49f7e8fb79863248ea490f7b8ebae2f27c24aea0bf45c1d9b8d3a72"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.1/cuaderno-0.29.1-x86_64-apple-darwin.tar.gz"
+      sha256 "1f07813c10ca6a0155653112da6785fa8298d5a5264670375286301f8811d69f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.0/cuaderno-0.29.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "39a57f9fc2d95a0c14b8bfade49bbd20cb779246d84e15fd7b80fe468bbede64"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.1/cuaderno-0.29.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6801f7c43f975bd7229af5a383866de7efe4dd5169ba7a4e14d5f94b74ceb577"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.0/cuaderno-0.29.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "67a890eb5cca9b2999999f7eb70f5d3d7baed0cf49b28577258250025233ddd2"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.1/cuaderno-0.29.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cf4005dcb85d8699b884442afc5758a18ebec4f05a38c0da200c8650595db308"
     end
   end
 
