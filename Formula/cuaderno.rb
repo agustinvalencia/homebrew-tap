@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.29.2"
+  version "0.30.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.2/cuaderno-0.29.2-aarch64-apple-darwin.tar.gz"
-      sha256 "bf0cb64b786b7d757ab399a2dce25f66c03a8d12c0df63d3dc54e83c91d1bf07"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.30.0/cuaderno-0.30.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a2c8fccba6b3e04400209a1ca6df3fef302166fbfc69b1b17a0fc70ec75d282c"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.2/cuaderno-0.29.2-x86_64-apple-darwin.tar.gz"
-      sha256 "b716b21f6f5cc1846379b25d5e16eaa5c1bb68413a5d318f361c182afab2dc53"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.30.0/cuaderno-0.30.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ec144752678d57f41ffc53006b29f0b154469793cbda8b1bf205993d76a22e98"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.2/cuaderno-0.29.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f66830720e3f5bb465544f693d39eb13cf82db1f0bfc914886b889b0031a53f7"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.30.0/cuaderno-0.30.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "42f3c20a45f1f5f1c8dfff23ca18c57a5367d4c7281f4947e87d5500cb600d14"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.29.2/cuaderno-0.29.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0e4f8bbffc6cdc299dfee958b0dad70f35d394b92e3e61e3d5b261a375064373"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.30.0/cuaderno-0.30.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0535813fda6b2cb47d73ecd2c7ef59070ab009ac8451a5907be5abfce01d457b"
     end
   end
 
