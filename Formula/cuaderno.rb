@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.32.0"
+  version "0.32.1"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.0/cuaderno-0.32.0-aarch64-apple-darwin.tar.gz"
-      sha256 "dae1ef5d97aa15531bb7b2fccbe2269fd1265a8ecab8fabcd0602ccab10a2c99"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.1/cuaderno-0.32.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ca7e3dd1425bb012984d67d5af6b0635edec8612e8e89896c1f658e60e8a8030"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.0/cuaderno-0.32.0-x86_64-apple-darwin.tar.gz"
-      sha256 "4b4e2affe6e3dc59d13147bc7026445fbfae8a6709e95f93f7d72387fdd58c51"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.1/cuaderno-0.32.1-x86_64-apple-darwin.tar.gz"
+      sha256 "298468abec1165c126dfb42193216f1029bc762b517e17ed909a3a722974eaa4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.0/cuaderno-0.32.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bbed77d4e4ab36b6d0e6e4e533d3a2a54c3fe13e872a7238f123edfea5c1148e"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.1/cuaderno-0.32.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b800ea5e205062cf29f5bd394663ac9455b6f565e5de60627fe8bac78330923c"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.0/cuaderno-0.32.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "988afd69d1d9edc77e16fd3b705b0911c87d82a7feac856fd6c9cb0abaa94c6e"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.1/cuaderno-0.32.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "782a702053a7de8b9a75ef650ceca544692413a5e35f1ddf214d4afed80ad6c8"
     end
   end
 
