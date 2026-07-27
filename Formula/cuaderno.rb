@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.33.0"
+  version "0.33.1"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.0/cuaderno-0.33.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f45b2f2bab50a77d66b4c7e3ba787107e3628a802b786d3c80224549fef8d8c6"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.1/cuaderno-0.33.1-aarch64-apple-darwin.tar.gz"
+      sha256 "22845b3eda04e377969a7e84b4f010c301c210221dc41c376a32673f716b9924"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.0/cuaderno-0.33.0-x86_64-apple-darwin.tar.gz"
-      sha256 "252c8984f4479759960a4ec7011dae14b6293a0959c61f4cd8ea1c9c10aba6d2"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.1/cuaderno-0.33.1-x86_64-apple-darwin.tar.gz"
+      sha256 "67450575d2f1280f9a6a5bb42ac07c364a938bf40ea6cf3d8a8d6ee14c217d9f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.0/cuaderno-0.33.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bf472c965e8bfa04798dcbe10da36abb7096887a65436e08c8468412852be355"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.1/cuaderno-0.33.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e78d177f99ea8393da6cb1563b1ce137893f8b45d2c1e9650df483c1f63cd400"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.0/cuaderno-0.33.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "008dccceb079de30de51da38d16f091921ac7ab5d1c7e450e69ef8e77646cf70"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.1/cuaderno-0.33.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8a3a7b1f7289fb7da54d4bfe0e4d286225e5cfae54d945a9e1a16ebe8970c16c"
     end
   end
 
