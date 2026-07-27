@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.32.1"
+  version "0.33.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.1/cuaderno-0.32.1-aarch64-apple-darwin.tar.gz"
-      sha256 "ca7e3dd1425bb012984d67d5af6b0635edec8612e8e89896c1f658e60e8a8030"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.0/cuaderno-0.33.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f45b2f2bab50a77d66b4c7e3ba787107e3628a802b786d3c80224549fef8d8c6"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.1/cuaderno-0.32.1-x86_64-apple-darwin.tar.gz"
-      sha256 "298468abec1165c126dfb42193216f1029bc762b517e17ed909a3a722974eaa4"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.0/cuaderno-0.33.0-x86_64-apple-darwin.tar.gz"
+      sha256 "252c8984f4479759960a4ec7011dae14b6293a0959c61f4cd8ea1c9c10aba6d2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.1/cuaderno-0.32.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b800ea5e205062cf29f5bd394663ac9455b6f565e5de60627fe8bac78330923c"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.0/cuaderno-0.33.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bf472c965e8bfa04798dcbe10da36abb7096887a65436e08c8468412852be355"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.32.1/cuaderno-0.32.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "782a702053a7de8b9a75ef650ceca544692413a5e35f1ddf214d4afed80ad6c8"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.33.0/cuaderno-0.33.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "008dccceb079de30de51da38d16f091921ac7ab5d1c7e450e69ef8e77646cf70"
     end
   end
 
