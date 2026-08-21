@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.35.0"
+  version "0.35.1"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.0/cuaderno-0.35.0-aarch64-apple-darwin.tar.gz"
-      sha256 "028dd2514d1b7a2477f7546bdc392c588995167cf077ef5db556442cbcfbc1f7"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.1/cuaderno-0.35.1-aarch64-apple-darwin.tar.gz"
+      sha256 "2303043166e1d80f5dfa94747d57bf27a63d702f8ad0e98e21c65c3e4189ff67"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.0/cuaderno-0.35.0-x86_64-apple-darwin.tar.gz"
-      sha256 "fc1a7683fe4f1b8027164849ace190f4152f8371100955da1bf7ba85412f8fde"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.1/cuaderno-0.35.1-x86_64-apple-darwin.tar.gz"
+      sha256 "e8a0691be3270025c82eb9217eb53b6b721c1361e290f8ec2b8a20d4f0a95a7f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.0/cuaderno-0.35.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "91fd302419e3c4a81810a022b8c710bde9be4d3b47c527d640b9d28c65d143ce"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.1/cuaderno-0.35.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "894b9f67bfccdd78998ef8df3ea0462fb95b93148a6b76ee2d27a7800e7a301e"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.0/cuaderno-0.35.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ac0359fb41885515b56339491b7421f96ac3efb5c52b4d55a44f885e38704762"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.1/cuaderno-0.35.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d573c90f224a29e1a9a18e071cc7ffa058cfd332c03a7de51d5ec430710b26f9"
     end
   end
 
