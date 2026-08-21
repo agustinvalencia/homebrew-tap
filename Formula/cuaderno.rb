@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.34.0"
+  version "0.35.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.34.0/cuaderno-0.34.0-aarch64-apple-darwin.tar.gz"
-      sha256 "852e289d5f68a9309d638dfa242a2e752a65796fef8ab2fa42bdd7cb0c634580"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.0/cuaderno-0.35.0-aarch64-apple-darwin.tar.gz"
+      sha256 "028dd2514d1b7a2477f7546bdc392c588995167cf077ef5db556442cbcfbc1f7"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.34.0/cuaderno-0.34.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b1251746e715d23a21d1c2106747b835ed49fdd78a0e5ac28b9271788a1ad232"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.0/cuaderno-0.35.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fc1a7683fe4f1b8027164849ace190f4152f8371100955da1bf7ba85412f8fde"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.34.0/cuaderno-0.34.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4453c20d38da3cba752a5c2caeb9a056957928b2ce5a21702e6e390b0eb7abce"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.0/cuaderno-0.35.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "91fd302419e3c4a81810a022b8c710bde9be4d3b47c527d640b9d28c65d143ce"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.34.0/cuaderno-0.34.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "801c6f434f26a62765a3399b2a5cb64f4ef3ea9a9f13b36088e825282f5880a6"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.35.0/cuaderno-0.35.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ac0359fb41885515b56339491b7421f96ac3efb5c52b4d55a44f885e38704762"
     end
   end
 
