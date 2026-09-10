@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.36.0"
+  version "0.37.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.36.0/cuaderno-0.36.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f40d3c94a729b4f66e89450a46e6657542566ab367275b7dc0a42373795cb181"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.37.0/cuaderno-0.37.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a32e2005af07a4db17723d10142d25fa5ada51fed26fc09a1ad18aad08c1e749"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.36.0/cuaderno-0.36.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ab4c764a6d218a5956fecdc007276510d03be126b82fd669b39b5a391f207971"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.37.0/cuaderno-0.37.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a54d7b4807f8ffba061cedeadc5c3d21c4b7f85d83ee85683451d16a7359fb79"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.36.0/cuaderno-0.36.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2914308614150def91a4b3ba5ad6a85d9a723158a5e8d3f5f1a8c40ba05bec65"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.37.0/cuaderno-0.37.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c1910e09e0e4613fd5ac288e8497ec6228baeeee072ea71b191cc422d845c038"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.36.0/cuaderno-0.36.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6f5734b213542f4c88bccaf521c413282ff8595e4ca65165911c445cc55e838f"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.37.0/cuaderno-0.37.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fce361ecdbae7d861a35bfa05393dcdf1e8f3331e119484357aacca0f496e033"
     end
   end
 
