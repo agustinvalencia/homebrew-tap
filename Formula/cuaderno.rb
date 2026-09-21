@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.37.0"
+  version "0.38.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.37.0/cuaderno-0.37.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a32e2005af07a4db17723d10142d25fa5ada51fed26fc09a1ad18aad08c1e749"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.38.0/cuaderno-0.38.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9b98c4045d03803a1c9c305422bfecb8aeeeb7d3f7fafd773d27050d8b342bc6"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.37.0/cuaderno-0.37.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a54d7b4807f8ffba061cedeadc5c3d21c4b7f85d83ee85683451d16a7359fb79"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.38.0/cuaderno-0.38.0-x86_64-apple-darwin.tar.gz"
+      sha256 "9c15a1764b9359ce972f9bb8eb6446d45bca18ab3dd9a2059f4467be049f519f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.37.0/cuaderno-0.37.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c1910e09e0e4613fd5ac288e8497ec6228baeeee072ea71b191cc422d845c038"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.38.0/cuaderno-0.38.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a4ef4fb7f8142a3cc8c8334c1d4326e5e96506182d8bf36af6a197832cbac28c"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.37.0/cuaderno-0.37.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fce361ecdbae7d861a35bfa05393dcdf1e8f3331e119484357aacca0f496e033"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.38.0/cuaderno-0.38.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a9e39b2fdb0f6c242957359fd21833ec4724af5f99dee88d475f4f7a6bda2093"
     end
   end
 
