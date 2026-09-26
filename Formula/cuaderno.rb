@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.38.0"
+  version "0.39.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.38.0/cuaderno-0.38.0-aarch64-apple-darwin.tar.gz"
-      sha256 "9b98c4045d03803a1c9c305422bfecb8aeeeb7d3f7fafd773d27050d8b342bc6"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.39.0/cuaderno-0.39.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a807752b1e76fdd4dc45f889786165ea2ac08471598f0671fb6dd804804dd2f8"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.38.0/cuaderno-0.38.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9c15a1764b9359ce972f9bb8eb6446d45bca18ab3dd9a2059f4467be049f519f"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.39.0/cuaderno-0.39.0-x86_64-apple-darwin.tar.gz"
+      sha256 "01847941d40138c64b3714ad4497d59da21f862893c09051279d13f0418406fb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.38.0/cuaderno-0.38.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a4ef4fb7f8142a3cc8c8334c1d4326e5e96506182d8bf36af6a197832cbac28c"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.39.0/cuaderno-0.39.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2c477f3175e3a3e74c155c52f2ae0498b7a8fc5c098f9dcf510ab29221c2150b"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.38.0/cuaderno-0.38.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a9e39b2fdb0f6c242957359fd21833ec4724af5f99dee88d475f4f7a6bda2093"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.39.0/cuaderno-0.39.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6d38a000e55205ef92e8510c6423f5a173c802a289d31be8c1b0996ffbbd66d9"
     end
   end
 
