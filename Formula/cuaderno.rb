@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.42.0"
+  version "0.43.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.42.0/cuaderno-0.42.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c963c64df7c58d24f748189248bad1c7ea61a2872be65f152dbd0723ce6b6939"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.43.0/cuaderno-0.43.0-aarch64-apple-darwin.tar.gz"
+      sha256 "c53c6fd21e0180e0f7d4c567567cc95b24158d113a1a7c938ee4c8b2da75754a"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.42.0/cuaderno-0.42.0-x86_64-apple-darwin.tar.gz"
-      sha256 "43a4e99da65c0383cf2efcc05cf3fd8392c4d4638ec8b2cbdd5752fb000c4b12"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.43.0/cuaderno-0.43.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5c08856d7395a1a8dae9fac9c6fc89497a32d410409200afd6af4ea1b801da00"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.42.0/cuaderno-0.42.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e0a9e8d6931532d5687703430d69e29de64bf181ec99772f1c8e0f1ae1a7ae44"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.43.0/cuaderno-0.43.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "22cb2a8127151a1ea2755fc269919e82fe932e25c05b4fbd7123932a77b0cf4a"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.42.0/cuaderno-0.42.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d62eb42b1ecee2dbaa0160b1e76b8933850fddeca9994805764ca505d0d58fc7"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.43.0/cuaderno-0.43.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "61739a2dae0175c8013f2f04776d35e9fdf5b490acce99db6c56f0ff544b7502"
     end
   end
 
