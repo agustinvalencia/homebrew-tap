@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.43.0"
+  version "0.44.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.43.0/cuaderno-0.43.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c53c6fd21e0180e0f7d4c567567cc95b24158d113a1a7c938ee4c8b2da75754a"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.44.0/cuaderno-0.44.0-aarch64-apple-darwin.tar.gz"
+      sha256 "37cee607a45bfd2fb221c2cf25a1f8b71cb72100cee8013369298bdb0e9cea70"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.43.0/cuaderno-0.43.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5c08856d7395a1a8dae9fac9c6fc89497a32d410409200afd6af4ea1b801da00"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.44.0/cuaderno-0.44.0-x86_64-apple-darwin.tar.gz"
+      sha256 "31ef18299f6926871dfe154981c73ae4c189227dd1dd0fa3d3539ada8fd4c495"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.43.0/cuaderno-0.43.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "22cb2a8127151a1ea2755fc269919e82fe932e25c05b4fbd7123932a77b0cf4a"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.44.0/cuaderno-0.44.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b2182e5c786496657f52627edaab4b2edded7a0516da1eded2ac1b5751125241"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.43.0/cuaderno-0.43.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "61739a2dae0175c8013f2f04776d35e9fdf5b490acce99db6c56f0ff544b7502"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.44.0/cuaderno-0.44.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "89cb8e189bce89696def6c988a758fd9150565fca919a37f25ecfd631420b165"
     end
   end
 
