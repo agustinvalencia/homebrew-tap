@@ -1,28 +1,28 @@
 class Cuaderno < Formula
   desc "Markdown vault manager for the Research Logbook Method (CLI + MCP server)"
   homepage "https://github.com/agustinvalencia/cuaderno"
-  version "0.44.0"
+  version "0.45.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.44.0/cuaderno-0.44.0-aarch64-apple-darwin.tar.gz"
-      sha256 "37cee607a45bfd2fb221c2cf25a1f8b71cb72100cee8013369298bdb0e9cea70"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.45.0/cuaderno-0.45.0-aarch64-apple-darwin.tar.gz"
+      sha256 "d0c1dec08e0595d201c2362546f6af7a8d44722d765e0a137953bd5e094f2a1e"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.44.0/cuaderno-0.44.0-x86_64-apple-darwin.tar.gz"
-      sha256 "31ef18299f6926871dfe154981c73ae4c189227dd1dd0fa3d3539ada8fd4c495"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.45.0/cuaderno-0.45.0-x86_64-apple-darwin.tar.gz"
+      sha256 "511ae543221d66bbd83fcb042750714375b21154be7407867c1a0fef683dc83d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.44.0/cuaderno-0.44.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b2182e5c786496657f52627edaab4b2edded7a0516da1eded2ac1b5751125241"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.45.0/cuaderno-0.45.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c4520321088f6d445287e6d4606d3fe4f2ea90c72b924a2908b69012fe93684a"
     end
     on_intel do
-      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.44.0/cuaderno-0.44.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "89cb8e189bce89696def6c988a758fd9150565fca919a37f25ecfd631420b165"
+      url "https://github.com/agustinvalencia/cuaderno/releases/download/v0.45.0/cuaderno-0.45.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cb116e493bfc22fc765eec10aceda479f3df793c852792b1210eff202b8a0c76"
     end
   end
 
